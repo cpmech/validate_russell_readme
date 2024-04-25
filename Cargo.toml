@@ -1,0 +1,11 @@
+[package]
+name = "validate_russell_readme"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+russell_lab = { version = "*", path = "../russell/russell_lab" }
+russell_ode = { version = "*", path = "../russell/russell_ode" }
+russell_sparse = { version = "*", path = "../russell/russell_sparse" }
+russell_stat = { version = "*", path = "../russell/russell_stat" }
+russell_tensor = { version = "*", path = "../russell/russell_tensor" }
